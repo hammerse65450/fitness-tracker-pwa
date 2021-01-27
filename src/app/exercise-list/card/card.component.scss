@@ -1,0 +1,46 @@
+.card-inner{
+  background-size: cover;
+  background-blend-mode: overlay;
+  min-height: 100px;
+  background-position: center;
+  a {
+    text-decoration: none;
+    color: white;
+  }
+}
+.card {
+  
+  
+  width: 100%;
+  
+ 
+  
+}
+
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) {
+  .card {
+    width: calc(50% - 72px);
+  }
+}
+
+/* // Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) {
+  .card {
+    width: calc(33% - 72px);
+  }
+}
+
+/* // Large devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+  .card {
+    width: calc(25% - 72px);
+  }
+}
+
+/* // Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+  .card {
+    width: calc(20% - 72px);
+  }
+}

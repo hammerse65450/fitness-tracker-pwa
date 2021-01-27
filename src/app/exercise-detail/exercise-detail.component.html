@@ -1,0 +1,21 @@
+<div class="exercise">
+  <div
+    class="header"
+    [ngStyle]="{
+      'background-image':
+        'linear-gradient(to bottom, rgba(0, 0, 0, 0.4) 10%, rgba(0, 0, 0, 0.1) 20%, rgba(255,255,255,1) 90%), url(' +
+        exercise?.imagePath +
+        ')'
+    }"
+  >
+    <div class="h1">{{ exercise?.name }}</div>
+    <div class="h2">{{ exercise?.category?.name }}</div>
+  </div>
+  <div class="exerciseContainer">
+    <div class="lastValue">{{ exercise?.lastValue }}</div>
+    <div class="unit">kg</div>
+  </div>
+  <button mat-fab class="addEntry">
+    <mat-icon>add</mat-icon>
+  </button>
+</div>

@@ -1,0 +1,47 @@
+.filter {
+	margin: 20px 20px 20px 20px;
+	.chip {
+		padding: 7px 20px;
+		min-height: 35px;
+	}
+}
+.flex-container {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+}
+
+.card {
+	width: 100%;
+	margin-bottom: 20px;
+	margin-right: 20px;
+	margin-left: 20px;
+  }
+  
+  /* Small devices (landscape phones, 576px and up) */
+  @media (min-width: 576px) {
+	.card {
+	  width: calc(50% - 72px);
+	}
+  }
+  
+  /* // Medium devices (tablets, 768px and up) */
+  @media (min-width: 768px) {
+	.card {
+	  width: calc(33% - 72px);
+	}
+  }
+  
+  /* // Large devices (desktops, 992px and up) */
+  @media (min-width: 992px) {
+	.card {
+	  width: calc(25% - 72px);
+	}
+  }
+  
+  /* // Extra large devices (large desktops, 1200px and up) */
+  @media (min-width: 1200px) {
+	.card {
+	  width: calc(20% - 72px);
+	}
+  }
