@@ -1,7 +1,7 @@
 {
   "configVersion": 1,
-  "timestamp": 1611776073690,
-  "index": "/index.html",
+  "timestamp": 1611777437105,
+  "index": "/fitness-tracker-pwa/index.html",
   "assetGroups": [
     {
       "name": "app",
@@ -11,13 +11,13 @@
         "ignoreVary": true
       },
       "urls": [
-        "/favicon.ico",
-        "/index.html",
-        "/main.8a255c46bb55fc0471ec.js",
-        "/manifest.webmanifest",
-        "/polyfills.d15628b9ba7248669cd9.js",
-        "/runtime.7b63b9fd40098a2e8207.js",
-        "/styles.9cd6139687e12fb7ba0d.css"
+        "/fitness-tracker-pwa/favicon.ico",
+        "/fitness-tracker-pwa/index.html",
+        "/fitness-tracker-pwa/main.8a255c46bb55fc0471ec.js",
+        "/fitness-tracker-pwa/manifest.webmanifest",
+        "/fitness-tracker-pwa/polyfills.d15628b9ba7248669cd9.js",
+        "/fitness-tracker-pwa/runtime.7b63b9fd40098a2e8207.js",
+        "/fitness-tracker-pwa/styles.9cd6139687e12fb7ba0d.css"
       ],
       "patterns": []
     },
@@ -29,45 +29,45 @@
         "ignoreVary": true
       },
       "urls": [
-        "/Poppins-SemiBold.52811c4614895f51378b.otf",
-        "/assets/fonts/Poppins-SemiBold.otf",
-        "/assets/icons/icon-128x128.png",
-        "/assets/icons/icon-144x144.png",
-        "/assets/icons/icon-152x152.png",
-        "/assets/icons/icon-192x192.png",
-        "/assets/icons/icon-384x384.png",
-        "/assets/icons/icon-512x512.png",
-        "/assets/icons/icon-72x72.png",
-        "/assets/icons/icon-96x96.png",
-        "/assets/images/Gym.jpg",
-        "/assets/images/Kreuzheben.jpg",
-        "/assets/json/data.json"
+        "/fitness-tracker-pwa/Poppins-SemiBold.52811c4614895f51378b.otf",
+        "/fitness-tracker-pwa/assets/fonts/Poppins-SemiBold.otf",
+        "/fitness-tracker-pwa/assets/icons/icon-128x128.png",
+        "/fitness-tracker-pwa/assets/icons/icon-144x144.png",
+        "/fitness-tracker-pwa/assets/icons/icon-152x152.png",
+        "/fitness-tracker-pwa/assets/icons/icon-192x192.png",
+        "/fitness-tracker-pwa/assets/icons/icon-384x384.png",
+        "/fitness-tracker-pwa/assets/icons/icon-512x512.png",
+        "/fitness-tracker-pwa/assets/icons/icon-72x72.png",
+        "/fitness-tracker-pwa/assets/icons/icon-96x96.png",
+        "/fitness-tracker-pwa/assets/images/Gym.jpg",
+        "/fitness-tracker-pwa/assets/images/Kreuzheben.jpg",
+        "/fitness-tracker-pwa/assets/json/data.json"
       ],
       "patterns": []
     }
   ],
   "dataGroups": [],
   "hashTable": {
-    "/Poppins-SemiBold.52811c4614895f51378b.otf": "eab071d544e6ecce69846d1cf2c149b8033fcfe9",
-    "/assets/fonts/Poppins-SemiBold.otf": "eab071d544e6ecce69846d1cf2c149b8033fcfe9",
-    "/assets/icons/icon-128x128.png": "dae3b6ed49bdaf4327b92531d4b5b4a5d30c7532",
-    "/assets/icons/icon-144x144.png": "b0bd89982e08f9bd2b642928f5391915b74799a7",
-    "/assets/icons/icon-152x152.png": "7479a9477815dfd9668d60f8b3b2fba709b91310",
-    "/assets/icons/icon-192x192.png": "1abd80d431a237a853ce38147d8c63752f10933b",
-    "/assets/icons/icon-384x384.png": "329749cd6393768d3131ed6304c136b1ca05f2fd",
-    "/assets/icons/icon-512x512.png": "559d9c4318b45a1f2b10596bbb4c960fe521dbcc",
-    "/assets/icons/icon-72x72.png": "c457e56089a36952cd67156f9996bc4ce54a5ed9",
-    "/assets/icons/icon-96x96.png": "3914125a4b445bf111c5627875fc190f560daa41",
-    "/assets/images/Gym.jpg": "2caed08961e5f8622faa2ab93676bcd302522260",
-    "/assets/images/Kreuzheben.jpg": "cca3383edcf1f21d264b9274b0523598a172badf",
-    "/assets/json/data.json": "b90072d50d81fc095f074c7b2f5244f19655f3b5",
-    "/favicon.ico": "22f6a4a3bcaafafb0254e0f2fa4ceb89e505e8b2",
-    "/index.html": "911b355c603e399d9892837c0b5b28ecf6d29d71",
-    "/main.8a255c46bb55fc0471ec.js": "701a27066070914bb47494fc72a92b74a6d59b02",
-    "/manifest.webmanifest": "994f9a1d25fc2070f2c558e0409a49c8e869e1d2",
-    "/polyfills.d15628b9ba7248669cd9.js": "f888b31e000d9b05c8c3fef19c325d813f2b7e1b",
-    "/runtime.7b63b9fd40098a2e8207.js": "a9aafcf49f49145093fc831efd9b8e2f6c71bb9c",
-    "/styles.9cd6139687e12fb7ba0d.css": "4d4c911e73a4064351edd901d921b02ed530794f"
+    "/fitness-tracker-pwa/Poppins-SemiBold.52811c4614895f51378b.otf": "eab071d544e6ecce69846d1cf2c149b8033fcfe9",
+    "/fitness-tracker-pwa/assets/fonts/Poppins-SemiBold.otf": "eab071d544e6ecce69846d1cf2c149b8033fcfe9",
+    "/fitness-tracker-pwa/assets/icons/icon-128x128.png": "dae3b6ed49bdaf4327b92531d4b5b4a5d30c7532",
+    "/fitness-tracker-pwa/assets/icons/icon-144x144.png": "b0bd89982e08f9bd2b642928f5391915b74799a7",
+    "/fitness-tracker-pwa/assets/icons/icon-152x152.png": "7479a9477815dfd9668d60f8b3b2fba709b91310",
+    "/fitness-tracker-pwa/assets/icons/icon-192x192.png": "1abd80d431a237a853ce38147d8c63752f10933b",
+    "/fitness-tracker-pwa/assets/icons/icon-384x384.png": "329749cd6393768d3131ed6304c136b1ca05f2fd",
+    "/fitness-tracker-pwa/assets/icons/icon-512x512.png": "559d9c4318b45a1f2b10596bbb4c960fe521dbcc",
+    "/fitness-tracker-pwa/assets/icons/icon-72x72.png": "c457e56089a36952cd67156f9996bc4ce54a5ed9",
+    "/fitness-tracker-pwa/assets/icons/icon-96x96.png": "3914125a4b445bf111c5627875fc190f560daa41",
+    "/fitness-tracker-pwa/assets/images/Gym.jpg": "2caed08961e5f8622faa2ab93676bcd302522260",
+    "/fitness-tracker-pwa/assets/images/Kreuzheben.jpg": "cca3383edcf1f21d264b9274b0523598a172badf",
+    "/fitness-tracker-pwa/assets/json/data.json": "b90072d50d81fc095f074c7b2f5244f19655f3b5",
+    "/fitness-tracker-pwa/favicon.ico": "22f6a4a3bcaafafb0254e0f2fa4ceb89e505e8b2",
+    "/fitness-tracker-pwa/index.html": "6116f866893fdb078ba0d574bbd027318ed94a5d",
+    "/fitness-tracker-pwa/main.8a255c46bb55fc0471ec.js": "701a27066070914bb47494fc72a92b74a6d59b02",
+    "/fitness-tracker-pwa/manifest.webmanifest": "994f9a1d25fc2070f2c558e0409a49c8e869e1d2",
+    "/fitness-tracker-pwa/polyfills.d15628b9ba7248669cd9.js": "f888b31e000d9b05c8c3fef19c325d813f2b7e1b",
+    "/fitness-tracker-pwa/runtime.7b63b9fd40098a2e8207.js": "a9aafcf49f49145093fc831efd9b8e2f6c71bb9c",
+    "/fitness-tracker-pwa/styles.9cd6139687e12fb7ba0d.css": "4d4c911e73a4064351edd901d921b02ed530794f"
   },
   "navigationUrls": [
     {
