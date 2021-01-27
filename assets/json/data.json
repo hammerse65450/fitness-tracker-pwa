@@ -7,7 +7,7 @@
 		},
         "name": "Butterfly",
 		"lastValue": "50",
-		"imagePath":"../../../assets/images/Gym.jpg"
+		"imagePath":"assets/images/Gym.jpg"
 	},
 	{
 		"id":2,
@@ -17,7 +17,7 @@
 		},
         "name": "Bankdrücken",
 		"lastValue": "50",
-		"imagePath":"../../../assets/images/Kreuzheben.jpg"
+		"imagePath":"assets/images/Kreuzheben.jpg"
 	},
 	{
 		"id":3,
@@ -27,7 +27,7 @@
 		},
         "name": "Kniebeugen",
 		"lastValue": "50",
-		"imagePath":"../../../assets/images/Gym.jpg"
+		"imagePath":"assets/images/Gym.jpg"
 	},
 	{
 		"id":4,
@@ -37,7 +37,7 @@
 		},
         "name": "Latzug",
 		"lastValue": "50",
-		"imagePath":"../../../assets/images/Kreuzheben.jpg"
+		"imagePath":"assets/images/Kreuzheben.jpg"
 	},
 	{
 		"id":5,
@@ -47,7 +47,7 @@
 		},
         "name": "Military Press",
 		"lastValue": "50",
-		"imagePath":"../../../assets/images/Kreuzheben.jpg"
+		"imagePath":"assets/images/Kreuzheben.jpg"
 	},
 	{
 		"id":6,
@@ -57,7 +57,7 @@
 		},
         "name": "Bizeps Curls",
 		"lastValue": "50",
-		"imagePath":"../../../assets/images/Kreuzheben.jpg"
+		"imagePath":"assets/images/Kreuzheben.jpg"
 	},
 	{
 		"id":7,
@@ -67,6 +67,6 @@
 		},
         "name": "Trizepsdrücken am Kabelzug",
 		"lastValue": "50",
-		"imagePath":"../../../assets/images/Kreuzheben.jpg"
+		"imagePath":"assets/images/Kreuzheben.jpg"
 	}
 ]
