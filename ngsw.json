@@ -1,6 +1,6 @@
 {
   "configVersion": 1,
-  "timestamp": 1611859521467,
+  "timestamp": 1611871015712,
   "index": "/fitness-tracker-pwa/index.html",
   "assetGroups": [
     {
@@ -13,11 +13,11 @@
       "urls": [
         "/fitness-tracker-pwa/favicon.ico",
         "/fitness-tracker-pwa/index.html",
-        "/fitness-tracker-pwa/main.9d412cc87ccb52a3f71f.js",
+        "/fitness-tracker-pwa/main.304d8558492dd4dfdb42.js",
         "/fitness-tracker-pwa/manifest.webmanifest",
         "/fitness-tracker-pwa/polyfills.d15628b9ba7248669cd9.js",
         "/fitness-tracker-pwa/runtime.7b63b9fd40098a2e8207.js",
-        "/fitness-tracker-pwa/styles.9cd6139687e12fb7ba0d.css"
+        "/fitness-tracker-pwa/styles.7c4c173fd2663863ff69.css"
       ],
       "patterns": []
     },
@@ -41,6 +41,9 @@
         "/fitness-tracker-pwa/assets/icons/icon-96x96.png",
         "/fitness-tracker-pwa/assets/images/Gym.jpg",
         "/fitness-tracker-pwa/assets/images/Kreuzheben.jpg",
+        "/fitness-tracker-pwa/assets/images/bg-1.jpg",
+        "/fitness-tracker-pwa/assets/images/bg-2.jpg",
+        "/fitness-tracker-pwa/assets/images/bg-3.jpg",
         "/fitness-tracker-pwa/assets/json/data.json"
       ],
       "patterns": []
@@ -60,14 +63,17 @@
     "/fitness-tracker-pwa/assets/icons/icon-96x96.png": "3914125a4b445bf111c5627875fc190f560daa41",
     "/fitness-tracker-pwa/assets/images/Gym.jpg": "2caed08961e5f8622faa2ab93676bcd302522260",
     "/fitness-tracker-pwa/assets/images/Kreuzheben.jpg": "cca3383edcf1f21d264b9274b0523598a172badf",
+    "/fitness-tracker-pwa/assets/images/bg-1.jpg": "64209e7f9f9648da30f3b9bc61099a323ff14f2b",
+    "/fitness-tracker-pwa/assets/images/bg-2.jpg": "bc27148c1ba7a2ef126597e6ade9ec651be99fba",
+    "/fitness-tracker-pwa/assets/images/bg-3.jpg": "56a52cb9ee7cb3bae29485c6a07b3f7ab1e79c23",
     "/fitness-tracker-pwa/assets/json/data.json": "87f3629aa9d4612c66676a6208877db18bbee787",
     "/fitness-tracker-pwa/favicon.ico": "22f6a4a3bcaafafb0254e0f2fa4ceb89e505e8b2",
-    "/fitness-tracker-pwa/index.html": "6c883bfbe6add08274d5d6454dc681bb29d2e580",
-    "/fitness-tracker-pwa/main.9d412cc87ccb52a3f71f.js": "ee2d1bf398de99c119110eca34b99e92cba1c884",
+    "/fitness-tracker-pwa/index.html": "b0526a28d601c88398d1558188d64fd9ba2e8c45",
+    "/fitness-tracker-pwa/main.304d8558492dd4dfdb42.js": "ff0e260df0858efae4bcb610825c873e6268e953",
     "/fitness-tracker-pwa/manifest.webmanifest": "994f9a1d25fc2070f2c558e0409a49c8e869e1d2",
     "/fitness-tracker-pwa/polyfills.d15628b9ba7248669cd9.js": "f888b31e000d9b05c8c3fef19c325d813f2b7e1b",
     "/fitness-tracker-pwa/runtime.7b63b9fd40098a2e8207.js": "a9aafcf49f49145093fc831efd9b8e2f6c71bb9c",
-    "/fitness-tracker-pwa/styles.9cd6139687e12fb7ba0d.css": "4d4c911e73a4064351edd901d921b02ed530794f"
+    "/fitness-tracker-pwa/styles.7c4c173fd2663863ff69.css": "61494f2c100bc2c19e0f1370ebf3529988ea6a7f"
   },
   "navigationUrls": [
     {
