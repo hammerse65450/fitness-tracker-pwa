@@ -7,7 +7,9 @@
     "build": "ng build",
     "test": "ng test",
     "lint": "ng lint",
-    "e2e": "ng e2e"
+    "e2e": "ng e2e",
+    "predeploy": "ng build --prod --base-href=/fitness-tracker-pwa/",
+    "deploy": "npx gh-pages -d dist/FitnessTracker"
   },
   "private": true,
   "dependencies": {

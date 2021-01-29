@@ -1,6 +1,6 @@
-<div class="exercise">
+<!-- <div class="exercise">
   <div
-    class="header"
+    class="image-header"
     [ngStyle]="{
       'background-image':
         'linear-gradient(to bottom, rgba(0, 0, 0, 0.4) 10%, rgba(0, 0, 0, 0.1) 20%, rgba(255,255,255,1) 90%), url(' +
@@ -8,6 +8,17 @@
         ')'
     }"
   >
+    <div class="backButtonContainer">
+      <button
+        mat-icon-button
+        aria-label="Back to Previous Page"
+        (click)="backClicked()"
+        class="backButton"
+      >
+      <mat-icon class="backIcon">arrow_back</mat-icon>
+      </button>
+    </div>
+
     <div class="h1">{{ exercise?.name }}</div>
     <div class="h2">{{ exercise?.category?.name }}</div>
   </div>
@@ -15,7 +26,32 @@
     <div class="lastValue">{{ exercise?.lastValue }}</div>
     <div class="unit">kg</div>
   </div>
-  <button mat-fab class="addEntry">
-    <mat-icon>add</mat-icon>
-  </button>
+</div>
+<button mat-fab class="addEntry" [routerLink]="['/exercise/addEntry', exercise?.id]">
+  <mat-icon>edit</mat-icon>
+</button> -->
+
+<button
+  mat-icon-button
+  aria-label="Back to Previous Page"
+  (click)="backClicked()"
+  class="backButton"
+>
+  <mat-icon class="backIcon">arrow_back</mat-icon>
+</button>
+<h1 class="header">
+  <span> {{ exercise?.name }} </span>
+  <span class="header-second-element small"> {{exercise?.category?.name}} </span>
+</h1>
+<div class="exercise-detail-page">
+  <h2>
+    {{ exercise?.category?.name }}
+  </h2>
+
+  <p class="lastValue">
+    {{exercise?.lastValue}}
+  </p>
+
+
+  <button mat-icon-button aria-label="Add" [routerLink]="['/exercise/addEntry', exercise?.id]" class="save">ADD</button>
 </div>

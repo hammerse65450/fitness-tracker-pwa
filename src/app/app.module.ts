@@ -10,6 +10,9 @@ import { MaterialModule } from './material/material.module';
 import { ExerciseDetailComponent } from './exercise-detail/exercise-detail.component';
 import { ExerciseListComponent } from './exercise-list/exercise-list.component';
 import { CardComponent } from './exercise-list/card/card.component';
+import { ExerciseAddComponent } from './exercise-add/exercise-add.component';
+import { ExerciseEntryAddComponent } from './exercise-entry-add/exercise-entry-add.component';
+
 
 
 @NgModule({
@@ -18,6 +21,8 @@ import { CardComponent } from './exercise-list/card/card.component';
     ExerciseDetailComponent,
     ExerciseListComponent,
     CardComponent,
+    ExerciseAddComponent,
+    ExerciseEntryAddComponent,
   ],
   imports: [
     BrowserModule,

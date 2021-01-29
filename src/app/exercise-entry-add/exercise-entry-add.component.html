@@ -1,0 +1,31 @@
+<h1 class="header">
+  <span> Add </span>
+  <span class="header-second-element"> Entry </span>
+</h1>
+<div class="add-entry-container">
+  <h2>
+    {{ exercise?.name }}
+  </h2>
+
+  <div class="value-input">
+    <div class="substract-container">
+      <button (click)="decrease()" mat-icon-button aria-label="Remove" class="">
+        <mat-icon class="">remove_circle_outline</mat-icon>
+      </button>
+    </div>
+    <input
+      type="number"
+      class="actual-value"
+      value="{{ exercise?.lastValue }}"
+      readonly
+    />
+    <div class="add-container">
+      <button (click)="increase()" mat-icon-button aria-label="Add" class="">
+        <mat-icon class="">add_circle_outline</mat-icon>
+      </button>
+    </div>
+  </div>
+  <button (click)="saveValue()" mat-icon-button aria-label="Save" class="save">
+    SAVE
+  </button>
+</div>

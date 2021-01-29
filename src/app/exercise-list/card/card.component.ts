@@ -16,7 +16,7 @@ export class CardComponent implements OnInit {
   }
   
   @Input() exercise:Exercise | undefined;
-  imageName = "../../../assets/images/Kreuzheben.jpg"
+
 
   openExercise(id: any){
 

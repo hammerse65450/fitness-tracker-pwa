@@ -1,0 +1,50 @@
+.add-entry-container {
+  margin: 20px;
+  display: flex;
+  flex-wrap: wrap;
+
+  .value-input {
+      margin-top: 50px;
+    text-align: center;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: center;
+    width: 100%;
+
+    .add-container {
+      align-self: center;
+      width: calc(20% -0px);
+      mat-icon {
+        //font-family: poppins-semi-bold !important;
+        font-size: 3rem !important;
+      }
+    }
+
+    .substract-container {
+      align-self: center;
+      width: calc(20% -0px);
+      mat-icon {
+        //font-family: poppins-semi-bold !important;
+        font-size: 3rem !important;
+      }
+    }
+
+    .actual-value {
+      font-family: poppins-semi-bold !important;
+      font-size: 3rem !important;
+      width: 60%;
+      text-align: center;
+      border: none;
+      padding: 0px;
+    }
+  }
+
+  .save {
+    font-size: 1.5rem;
+    margin-top: 50px;
+    font-family: poppins-semi-bold !important;
+    text-align: center;
+    width: 100%;
+  }
+}
