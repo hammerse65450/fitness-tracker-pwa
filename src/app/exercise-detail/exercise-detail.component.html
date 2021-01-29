@@ -31,27 +31,36 @@
   <mat-icon>edit</mat-icon>
 </button> -->
 
-<button
+<!-- <button
   mat-icon-button
   aria-label="Back to Previous Page"
   (click)="backClicked()"
   class="backButton"
 >
   <mat-icon class="backIcon">arrow_back</mat-icon>
-</button>
+</button> -->
 <h1 class="header">
-  <span> {{ exercise?.name }} </span>
-  <span class="header-second-element small"> {{exercise?.category?.name}} </span>
-</h1>
-<div class="exercise-detail-page">
-  <h2>
+  <span> {{ exercise?.name }} </span><br />
+  <span class="header-second-element small">
     {{ exercise?.category?.name }}
-  </h2>
+  </span>
+</h1>
 
-  <p class="lastValue">
-    {{exercise?.lastValue}}
-  </p>
+<div class="exercise-detail-page">
+  <div class="lastValue">
+    {{ exercise?.lastValue }}
+  </div>
 
+  <button
+    mat-icon-button
+    aria-label="Add"
+    [routerLink]="['/exercise/addEntry', exercise?.id]"
+    class="save"
+  >
+    Add
+  </button>
 
-  <button mat-icon-button aria-label="Add" [routerLink]="['/exercise/addEntry', exercise?.id]" class="save">ADD</button>
+  <button mat-icon-button aria-label="Close" [routerLink]="['/']" class="close">
+    Close
+  </button>
 </div>

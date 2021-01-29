@@ -90,10 +90,6 @@
 // 	transform : translate3d(0, 0, 0);
 // }
 
-.lastValue {
-  font-family: poppins-semi-bold;
-}
-
 .backButton {
   margin-left: 10px;
   margin-top: 10px;
@@ -102,12 +98,32 @@
   }
 }
 
-.small{
-	font-size: 2rem;
+.small {
+  font-size: 2rem;
 }
 
 .exercise-detail-page {
   margin: 20px;
   display: flex;
   flex-wrap: wrap;
+
+  .lastValue {
+    font-family: poppins-semi-bold;
+    width: 100%;
+    text-align: center;
+    font-size: 4rem;
+    line-height: 4rem;
+    margin-bottom: 2rem;
+    margin-top: 2rem;
+  }
+
+  .save {
+    width: 100%;
+    font-size: 1.5rem;
+  }
+  .close {
+    font-size: 1.5rem;
+    width: 100%;
+    margin-top: 2rem;
+  }
 }
