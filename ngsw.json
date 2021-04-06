@@ -1,6 +1,6 @@
 {
   "configVersion": 1,
-  "timestamp": 1611963154023,
+  "timestamp": 1617732880716,
   "index": "/fitness-tracker-pwa/index.html",
   "assetGroups": [
     {
@@ -70,7 +70,7 @@
     "/fitness-tracker-pwa/favicon.ico": "22f6a4a3bcaafafb0254e0f2fa4ceb89e505e8b2",
     "/fitness-tracker-pwa/index.html": "a242e739039640a55d3fbb0d532426a10a606708",
     "/fitness-tracker-pwa/main.3402fff4a883c56cd252.js": "2551880b575cd65b24763f072a843f97db54db61",
-    "/fitness-tracker-pwa/manifest.webmanifest": "e209a340f159b7f711cda521f0a85dc30d3d47a5",
+    "/fitness-tracker-pwa/manifest.webmanifest": "7dc7049ee2b03e880c21145949baa5983fa8f9f7",
     "/fitness-tracker-pwa/polyfills.d15628b9ba7248669cd9.js": "f888b31e000d9b05c8c3fef19c325d813f2b7e1b",
     "/fitness-tracker-pwa/runtime.7b63b9fd40098a2e8207.js": "a9aafcf49f49145093fc831efd9b8e2f6c71bb9c",
     "/fitness-tracker-pwa/styles.578b27d9b30618c27d3c.css": "ed1f30ff400b07a36c4478e9ee8d4b73f94a5337"
