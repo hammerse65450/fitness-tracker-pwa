@@ -27,7 +27,7 @@ import { ExerciseEntryAddComponent } from './exercise-entry-add/exercise-entry-a
   imports: [
     BrowserModule,
     AppRoutingModule,
-    ServiceWorkerModule.register('ngsw-worker.js', { enabled: environment.production }),
+    ServiceWorkerModule.register('ngsw-worker.js', { enabled: environment.production, registrationStrategy: 'registerImmediately' }),
     BrowserAnimationsModule,
     MaterialModule,
   ],
