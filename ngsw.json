@@ -1,6 +1,6 @@
 {
   "configVersion": 1,
-  "timestamp": 1679861882152,
+  "timestamp": 1679862534773,
   "index": "https://hammersebastian.github.io/fitness-tracker-pwa/index.html",
   "assetGroups": [
     {
@@ -15,9 +15,12 @@
         "https://hammersebastian.github.io/fitness-tracker-pwa/index.html",
         "https://hammersebastian.github.io/fitness-tracker-pwa/main.f92b85706bef2b795bcc.js",
         "https://hammersebastian.github.io/fitness-tracker-pwa/manifest.webmanifest",
+        "https://hammersebastian.github.io/fitness-tracker-pwa/ngsw-worker.js",
         "https://hammersebastian.github.io/fitness-tracker-pwa/polyfills.798205cd6e2839a797a6.js",
         "https://hammersebastian.github.io/fitness-tracker-pwa/runtime.0e49e2b53282f40c8925.js",
-        "https://hammersebastian.github.io/fitness-tracker-pwa/styles.dd3cdf05bead02f1df29.css"
+        "https://hammersebastian.github.io/fitness-tracker-pwa/safety-worker.js",
+        "https://hammersebastian.github.io/fitness-tracker-pwa/styles.dd3cdf05bead02f1df29.css",
+        "https://hammersebastian.github.io/fitness-tracker-pwa/worker-basic.min.js"
       ],
       "patterns": []
     },
@@ -71,9 +74,12 @@
     "https://hammersebastian.github.io/fitness-tracker-pwa/index.html": "e4fb8fa24a2d38ccfe0f02077cbab624b1362e6d",
     "https://hammersebastian.github.io/fitness-tracker-pwa/main.f92b85706bef2b795bcc.js": "463f9655e57adc5bb504526da37e2177f2b9597a",
     "https://hammersebastian.github.io/fitness-tracker-pwa/manifest.webmanifest": "7dc7049ee2b03e880c21145949baa5983fa8f9f7",
+    "https://hammersebastian.github.io/fitness-tracker-pwa/ngsw-worker.js": "b44316be1c1338e9e8bd30ee40946085916c58e4",
     "https://hammersebastian.github.io/fitness-tracker-pwa/polyfills.798205cd6e2839a797a6.js": "28f66ad77936ef7318027a4b4f432535bc5c9b2e",
     "https://hammersebastian.github.io/fitness-tracker-pwa/runtime.0e49e2b53282f40c8925.js": "a9aafcf49f49145093fc831efd9b8e2f6c71bb9c",
-    "https://hammersebastian.github.io/fitness-tracker-pwa/styles.dd3cdf05bead02f1df29.css": "da86e8e0d9f592ef14fc9e536ab8ce1e3d757941"
+    "https://hammersebastian.github.io/fitness-tracker-pwa/safety-worker.js": "f532926317210be6e2679d21748dc44a35389807",
+    "https://hammersebastian.github.io/fitness-tracker-pwa/styles.dd3cdf05bead02f1df29.css": "da86e8e0d9f592ef14fc9e536ab8ce1e3d757941",
+    "https://hammersebastian.github.io/fitness-tracker-pwa/worker-basic.min.js": "f532926317210be6e2679d21748dc44a35389807"
   },
   "navigationUrls": [
     {
