@@ -1,11 +1,10 @@
 <mat-card
   class="card-inner"
   [ngStyle]="{ 'background-image': 'url(' + exercise?.imagePath + ')' }"
-  (click)="openExercise(exercise?.id)"
   [routerLink]="['/exercise', exercise?.id]"
 >
   <mat-card-header>
     <mat-card-title>{{ exercise?.name }}</mat-card-title>
-    <mat-card-subtitle>{{ exercise?.category?.name }}</mat-card-subtitle>
+    <mat-card-subtitle>{{ category?.name }}</mat-card-subtitle>
   </mat-card-header>
 </mat-card>

@@ -13,10 +13,7 @@ import { db } from '../../db/db';
 export class ExerciseEntryAddComponent implements OnInit {
   exercise: Exercise | undefined;
 
-  constructor(
-    private route: ActivatedRoute,
-    private _location: Location
-  ) {}
+  constructor(private route: ActivatedRoute, private _location: Location) {}
 
   ngOnInit(): void {
     let id = this.route.snapshot.paramMap.get('id');
@@ -48,8 +45,8 @@ export class ExerciseEntryAddComponent implements OnInit {
   }
 
   saveValue() {
-    db.exercises.update(this.exercise.id, {
-      lastValue: this.exercise.lastValue,
+    db.exercises.update(this.exercise?.id!, {
+      lastValue: this.exercise?.lastValue,
     });
     this._location.back();
   }

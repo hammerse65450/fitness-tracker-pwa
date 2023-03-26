@@ -1,6 +1,6 @@
 import Dexie, { Table } from 'dexie';
-import { Exercise } from './exercise';
-import { Category } from './category';
+import { Exercise } from '../app/exercise';
+import { Category } from '../app/category';
 
 export class AppDB extends Dexie {
   exercises!: Table<Exercise, number>;

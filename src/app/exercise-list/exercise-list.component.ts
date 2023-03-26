@@ -21,6 +21,7 @@ export class ExerciseListComponent implements OnInit {
       (c) => (this.categories$ = c)
     );
     liveQuery(() => this.getExercises()).subscribe((e) => (this.data$ = e));
+    liveQuery(() => this.getExercises()).subscribe((e) => (this.origData$ = e));
   }
 
   async getCategories() {
@@ -35,13 +36,12 @@ export class ExerciseListComponent implements OnInit {
 
   selectCategory(event: Event, elem: Category) {
     this.toggleClass(event.target);
-    console.log(elem);
-    if (this.selectedCategories.includes(elem.id)) {
+    if (this.selectedCategories.includes(elem.id!)) {
       this.selectedCategories = this.selectedCategories.filter(
         (obj) => obj !== elem.id
       );
     } else {
-      this.selectedCategories.push(elem.id);
+      this.selectedCategories.push(elem.id!);
     }
     this.updateData();
   }
@@ -50,7 +50,6 @@ export class ExerciseListComponent implements OnInit {
     console.log(this.selectedCategories);
     if (this.selectedCategories.length > 0) {
       let filteredItems: Exercise[] = [];
-      this.origData$ = this.data$;
       this.origData$.forEach((item) => {
         this.selectedCategories.forEach((category_id) => {
           if (item.categoryId == category_id) {

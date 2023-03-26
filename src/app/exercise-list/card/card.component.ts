@@ -1,26 +1,31 @@
 import { Component, Input, OnInit } from '@angular/core';
-import { Exercise } from 'src/app/exercise';
+import { Category } from '../../category';
+import { Exercise } from '../../exercise';
+import { db } from '../../../db/db';
 
 @Component({
   selector: 'app-card',
   templateUrl: './card.component.html',
-  styleUrls: ['./card.component.scss']
+  styleUrls: ['./card.component.scss'],
 })
 export class CardComponent implements OnInit {
 
-  constructor() { 
+  category: Category | undefined;
+
+  constructor() {
     this.exercise;
+    this.category;
+  }
+
+  async getCategoryById(id: number) {
+    return await db.categories.get(id);
   }
 
   ngOnInit(): void {
+    this.getCategoryById(this.exercise?.categoryId!).then(
+      (c) => (this.category = c)
+    );
   }
-  
-  @Input() exercise:Exercise | undefined;
 
-
-  openExercise(id: any){
-
-    console.log(id)
-
-  }
+  @Input() exercise: Exercise | undefined;
 }

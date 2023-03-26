@@ -10,7 +10,7 @@
     class="chip-list"
   >
     <mat-chip
-      *ngFor="let item of categories$; trackBy: identifyList"
+      *ngFor="let item of categories$"
       color="accent"
       (click)="selectCategory($event, item)"
       class="chip"
