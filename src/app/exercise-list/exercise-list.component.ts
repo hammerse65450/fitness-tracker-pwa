@@ -1,9 +1,9 @@
 import { elementEventFullName } from '@angular/compiler/src/view_compiler/view_compiler';
 import { ChangeDetectorRef, Component, Input, OnInit } from '@angular/core';
 import { Category } from '../category';
-import { DataLoaderService } from '../data-loader.service';
 import { Exercise } from '../exercise';
-
+import { liveQuery } from 'dexie';
+import { db } from '../../db/db';
 
 @Component({
   selector: 'app-filter',
@@ -11,22 +11,31 @@ import { Exercise } from '../exercise';
   styleUrls: ['./exercise-list.component.scss'],
 })
 export class ExerciseListComponent implements OnInit {
-  selected: any = [];
-  constructor(service: DataLoaderService) {
-    this.categories = service.getCategories();
-    this.origData = service.getData();
-    this.data = this.origData;
-    this.selectedCategories = [];
+  categories$: Category[] = [];
+  data$: Exercise[] = [];
+  origData$: Exercise[] = [];
+  selectedCategories: number[] = [];
+
+  constructor() {
+    liveQuery(() => this.getCategories()).subscribe(
+      (c) => (this.categories$ = c)
+    );
+    liveQuery(() => this.getExercises()).subscribe((e) => (this.data$ = e));
   }
-  data:Exercise[];
-  categories: Category[];
-  origData: Exercise[];
-  selectedCategories: number[];
+
+  async getCategories() {
+    return await db.categories.toArray();
+  }
+
+  async getExercises() {
+    return await db.exercises.toArray();
+  }
+
   ngOnInit(): void {}
 
-  selectCategory(event:Event, elem:Category) {
+  selectCategory(event: Event, elem: Category) {
     this.toggleClass(event.target);
-
+    console.log(elem);
     if (this.selectedCategories.includes(elem.id)) {
       this.selectedCategories = this.selectedCategories.filter(
         (obj) => obj !== elem.id
@@ -38,23 +47,24 @@ export class ExerciseListComponent implements OnInit {
   }
 
   updateData() {
+    console.log(this.selectedCategories);
     if (this.selectedCategories.length > 0) {
-      let filteredItems:Exercise[] = [];
-      this.origData.forEach((item) => {
+      let filteredItems: Exercise[] = [];
+      this.origData$ = this.data$;
+      this.origData$.forEach((item) => {
         this.selectedCategories.forEach((category_id) => {
-          if (item.category.id == category_id) {
+          if (item.categoryId == category_id) {
             filteredItems.push(item);
           }
         });
       });
-      this.data = filteredItems;
-    }
-    else{
-      this.data = this.origData;
+      this.data$ = filteredItems;
+    } else {
+      this.data$ = this.origData$;
     }
   }
 
-  toggleClass(target:any) {
+  toggleClass(target: any) {
     const hasClass = target.classList.contains('mat-chip-selected');
     if (hasClass) {
       target.classList.remove('mat-chip-selected');

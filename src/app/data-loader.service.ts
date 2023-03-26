@@ -12,9 +12,6 @@ import { Category } from './category';
 
 export class DataLoaderService {
 
-
-  
-
   getData(){
     let exerciseData:Exercise[] = data;
     return exerciseData
