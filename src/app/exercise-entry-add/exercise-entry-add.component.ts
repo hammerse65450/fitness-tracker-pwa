@@ -1,7 +1,6 @@
 import { trigger, transition, style, animate } from '@angular/animations';
 import { Component, OnInit } from '@angular/core';
 import { ActivatedRoute } from '@angular/router';
-import { DataLoaderService } from '../data-loader.service';
 import { Exercise } from '../exercise';
 import { Location } from '@angular/common';
 import { db } from '../../db/db';
@@ -15,7 +14,6 @@ export class ExerciseEntryAddComponent implements OnInit {
   exercise: Exercise | undefined;
 
   constructor(
-    private service: DataLoaderService,
     private route: ActivatedRoute,
     private _location: Location
   ) {}
